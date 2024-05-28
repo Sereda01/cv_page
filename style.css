@@ -30,9 +30,14 @@ margin: 0 auto;
     height: 3px;
     background-color: rgb(160, 192, 127);
 }
+.section {
+   
+}
 
-.video {
-    width: 800px;
+.video { 
+    width: 100%;
+    max-width:800px ;
+    /* width: 800px; */
     height: 490px;
     border: none;
 }
@@ -56,6 +61,7 @@ margin: 0 auto;
     color: coral;
 }
 .form {
+    max-width: 100%;
     width: 600px;
     margin: 0 auto;
 }
